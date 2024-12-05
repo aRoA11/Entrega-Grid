@@ -26,9 +26,7 @@ header {
   background-color: var(--blue-color);
   color: var(--primary-color);
   text-align: center;
-  justify-content: space-between;
 }
-
 .school {
   grid-column: 4/7;
   grid-row: 1/4;
@@ -37,14 +35,15 @@ header {
 }
 
 .student {
-  /margin: 10px;
+  margin: 10px;
   grid-column: 7/10;
   grid-row: 1/4;
   background-image: url(https://images03.nicepage.com/c461c07a441a5d220e8feb1a/9e4ce16148dd5cbeb1065410/89f80abe-6acd-d8dc-a341-3e571206975b.jpg);
 }
 main {
+  border: var(--border);
   grid-column: 4/7;
-  grid-row: 5/7;
+  grid-row: 4/7;
   color: var(--blue-color);
 }
 
@@ -78,5 +77,5 @@ footer {
 .school,
 .student,
 .time {
-  background-size: cover;
+  background-size: cover; /* Ajusta las imágenes para cubrir todo el contenedor */
 }
